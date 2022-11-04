@@ -1,0 +1,25 @@
+.featured{
+    font-size: x-large ;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.direction{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.subtext{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #373a5b    ;
+}
+.switch{
+    margin-left: 10px;
+    align-self: center;
+}

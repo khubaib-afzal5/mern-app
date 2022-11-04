@@ -1,0 +1,137 @@
+.pricecard {
+    width: 340px !important;
+    background-color: #e9ebf7;
+    border-radius: 15px;
+    border-width: 0;
+    padding: 10px;
+    margin-bottom: 30px;
+   
+
+}
+@media screen and (max-width: 500px) {
+    .pricecard {
+        width: 300px ;
+
+
+        
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .pricecard {
+        width: 300px ;
+
+
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .pricecard {
+        width: 300px ;
+
+
+    }
+  }
+.position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+@media screen and (max-width: 500px) {
+    .position {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+
+        
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .position {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+    }
+  }
+
+.pricecard1 {
+    width: 500px !important;
+    background-color: #e9ebf7;
+    border-radius: 15px;
+    border-width: 0;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.pricecard2 {
+    width: 500px !important;
+    background-color: #e9ebf7;
+    border-radius: 15px;
+    border-width: 0;
+    padding: 10px;
+    margin-left: 20px;
+
+
+}
+
+.head {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #373a5b;
+}
+
+.headd {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #373a5b;
+}
+
+.price {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    color: #373a5b;
+    font-size: 70px;
+
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.list {
+    letter-spacing: 1px;
+    color: #373a5b;
+    font-size: 20px;
+}
+
+.backbttn {
+    background-color: #1579cb;
+    border-radius: 30px;
+    border-width: 0;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+
+.text {
+    font-size: large;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
